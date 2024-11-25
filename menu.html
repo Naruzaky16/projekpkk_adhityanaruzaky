@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandwich Buah</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        h1, h2, h3 {
+            margin: 0;
+        }
+        header {
+            background-color: #f44336; /* Warna merah strawberry */
+            color: white;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            font-size: 50px;
+            margin-bottom: 10px;
+        }
+        header .box {
+            font-size: 24px;
+            font-weight: bold;
+            background-color: #fff;
+            color: #f44336;
+            padding: 10px 20px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        .produk {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 40px;
+            background-color: #fff;
+            margin: 20px auto;
+            border-radius: 10px;
+            max-width: 1200px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .produk-info {
+            flex: 1;
+            padding-right: 20px;
+        }
+        .produk-info h1 {
+            font-size: 32px;
+            margin-bottom: 20px;
+            color: #f44336; /* Menambahkan warna merah strawberry pada judul */
+        }
+        .produk-info button {
+            padding: 15px 30px;
+            background-color: #f44336;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+            transition: background-color 0.3s ease;
+        }
+        .produk-info button:hover {
+            background-color: #e53935; /* Warna merah yang sedikit lebih gelap untuk hover */
+        }
+        .gambar-produk img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .about {
+            padding: 40px 20px;
+            text-align: center;
+            background-color: #fff;
+            margin: 20px auto;
+            border-radius: 10px;
+            max-width: 1200px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .about h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #f44336;
+        }
+        .about p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #333;
+        }
+        .alamat {
+            display: flex;
+            justify-content: space-between;
+            padding: 40px 20px;
+            background-color: #fff;
+            margin: 20px auto;
+            border-radius: 10px;
+            max-width: 1200px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .alamat-detail, .map {
+            text-align: center;
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 10px;
+            flex: 1;
+            margin: 0 10px;
+        }
+        .alamat-detail h3, .map h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #f44336; /* Menambahkan warna merah pada judul alamat */
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #f44336;
+            color: white;
+        }
+        footer h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+        footer .sosialmedia img {
+            width: 50px;
+            height: 50px;
+            margin: 0 10px;
+            transition: transform 0.4s;
+        }
+        footer .sosialmedia img:hover {
+            transform: scale(1.1);
+        }
+        @media (max-width: 768px) {
+            .produk {
+                flex-direction: column;
+                align-items: center;
+            }
+            .produk-info {
+                padding-right: 0;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+            .gambar-produk img {
+                max-width: 90%;
+            }
+            .alamat {
+                flex-direction: column;
+            }
+            .alamat-detail, .map {
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>STAR SANDWICH</h1>
+        <div class="box">HEALTHY FOOD</div>
+        <a href="login1.html" style="color: white; text-decoration: none; font-weight: bold; margin-top: 10px;">Login</a> <!-- Tambahkan link ini -->
+    </header>
+    <main>
+        <section class="produk">
+            <div class="produk-info">
+                <h1>SANDWICH BUAH</h1>
+                <a href="https://wa.me/6281287399663"><button>PESAN</button></a>
+            </div>
+            <div class="gambar-produk">
+                <img src="gambarsandwich.png" alt="Sandwich Buah">
+            </div>
+        </section>
+        <section class="about">
+            <h2>ABOUT</h2>
+            <p>
+                Sandwich buah menawarkan perpaduan rasa yang segar, manis, sedikit asam, dan creamy, tergantung pada buah dan bahan tambahan yang digunakan. Rasa manis dari buah seperti pisang atau mangga dipadukan dengan rasa asam dari buah seperti kiwi atau jeruk, sementara bahan seperti selai kacang atau keju krim menambah rasa gurih dan creamy. Secara keseluruhan, sandwich buah memberikan pengalaman rasa yang seimbang, ringan, dan menyegarkan, cocok sebagai camilan sehat atau sarapan.
+            </p>
+        </section>
+        <section class="alamat">
+            <div class="alamat-detail">
+                <h3>Alamat</h3>
+                <p>Perum Permata Regency, Jl.AgateUtara, Blok H1 NO.4</p>
+            </div>
+            <div class="map">
+                <h3>MAP</h3>
+                <p><a href="https://maps.app.goo.gl/wDfCkhqtLZaYjtiq8">KLIK UNTUK MELIHAT LOKASI</a></p>
+            </div>
+        </section>
+        <footer>
+            <h2>MEDIA SOSIAL</h2>
+            <div class="sosialmedia">
+                <img src="facebook-icon.png" alt="Facebook">
+                <img src="instagram-icon.png" alt="Instagram">
+                <img src="twitter-icon.png" alt="Twitter">
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
